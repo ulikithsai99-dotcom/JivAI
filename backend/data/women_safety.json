@@ -1,0 +1,46 @@
+{
+  "id": "women",
+  "label": "Women Safety",
+  "icon": "shield",
+  "description": "Harassment, assault, domestic violence, and women-specific emergencies",
+  "color": "#EC4899",
+  "helpline": "1091",
+  "urgency_default": "critical",
+  "keywords": [
+    "stalking", "harassment", "domestic violence", "assault", "rape",
+    "molested", "unsafe", "eve teasing", "abuse", "threatened woman"
+  ],
+  "steps": [
+    "Move to a well-lit, public area if you are being followed",
+    "Call the Women Helpline at 1091 or dial 112 for police",
+    "Share your live location with a trusted contact",
+    "If at home, lock doors and stay on the phone with helpline",
+    "Do not confront the aggressor alone — wait for authorities"
+  ],
+  "guidance": [
+    "Your safety comes first — leave the situation if possible",
+    "Document evidence: screenshots, photos, or recordings if safe",
+    "Domestic violence victims can seek shelter through 181 helpline",
+    "Police must register your complaint — insist on an FIR if needed",
+    "You are not alone — trained counselors are available 24/7"
+  ],
+  "helplines": [
+    {
+      "id": "women-1091",
+      "name": "Women Helpline",
+      "number": "1091",
+      "description": "24/7 women safety and support"
+    },
+    {
+      "id": "women-181",
+      "name": "Domestic Violence Helpline",
+      "number": "181",
+      "description": "Counseling and shelter support for women"
+    }
+  ],
+  "actions": [
+    { "id": "call-1091", "label": "Women Helpline", "icon": "phone", "type": "call", "phoneNumber": "1091" },
+    { "id": "nearest-safe", "label": "Nearest Safe Place", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "documents",
+  "label": "Lost Documents",
+  "icon": "file",
+  "description": "Lost or stolen identity documents such as Aadhaar, PAN, passport",
+  "color": "#F59E0B",
+  "helpline": "1947",
+  "urgency_default": "medium",
+  "keywords": [
+    "lost", "stolen", "aadhaar", "pan", "passport", "voter id",
+    "driving license", "documents", "wallet stolen", "id card"
+  ],
+  "steps": [
+    "File an FIR at the nearest police station immediately",
+    "Block your Aadhaar through UIDAI helpline 1947 or resident.uidai.gov.in",
+    "Apply for duplicate documents through official government portals",
+    "Notify your bank if cards were lost with the documents",
+    "Keep copies of the FIR and acknowledgment receipts"
+  ],
+  "guidance": [
+    "Report lost Aadhaar to prevent identity misuse",
+    "For passport loss, contact the Regional Passport Office",
+    "Apply for duplicate PAN through NSDL or UTIITSL portals",
+    "Monitor bank accounts for unauthorized activity after document loss",
+    "Use DigiLocker to store digital copies of important documents"
+  ],
+  "helplines": [
+    {
+      "id": "uidai-1947",
+      "name": "UIDAI Aadhaar Helpline",
+      "number": "1947",
+      "description": "Block or report lost Aadhaar"
+    },
+    {
+      "id": "passport",
+      "name": "Passport Seva Kendra",
+      "number": "18002581800",
+      "description": "Passport loss and reissue guidance"
+    }
+  ],
+  "actions": [
+    { "id": "call-1947", "label": "UIDAI Helpline", "icon": "phone", "type": "call", "phoneNumber": "1947" },
+    { "id": "nearest-police", "label": "Nearest Police Station", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

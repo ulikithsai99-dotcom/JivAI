@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-05",
+  "description": "Offline emergency reference cache — works without external APIs",
+  "universal_helplines": [
+    { "name": "Unified Emergency", "number": "112", "type": "emergency" },
+    { "name": "Ambulance", "number": "108", "type": "medical" },
+    { "name": "Police", "number": "100", "type": "safety" },
+    { "name": "Fire", "number": "101", "type": "fire" },
+    { "name": "Women Helpline", "number": "1091", "type": "women" },
+    { "name": "Cyber Crime", "number": "1930", "type": "cybercrime" },
+    { "name": "Mental Health (KIRAN)", "number": "9152987821", "type": "mental_health" }
+  ],
+  "priority_matrix": {
+    "critical": ["108", "112", "100", "1091"],
+    "high": ["112", "100", "1078", "9152987821"],
+    "medium": ["1930", "1947", "112"],
+    "low": ["112"]
+  },
+  "quick_actions": {
+    "medical": "Call 108 immediately. Check breathing. Begin CPR if trained.",
+    "cybercrime": "Call 1930. Block cards. Do not share OTP.",
+    "documents": "File FIR. Block Aadhaar at 1947.",
+    "women": "Call 1091. Move to a safe public area.",
+    "disaster": "Evacuate to higher ground. Call 1078.",
+    "public_safety": "Call 100. Move to safety.",
+    "mental_health": "Call 9152987821. You are not alone."
+  }
+}

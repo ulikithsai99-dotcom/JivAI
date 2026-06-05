@@ -1,0 +1,46 @@
+{
+  "id": "public_safety",
+  "label": "Public Safety",
+  "icon": "shield",
+  "description": "Crime, violence, robbery, and public safety threats",
+  "color": "#3B82F6",
+  "helpline": "100",
+  "urgency_default": "high",
+  "keywords": [
+    "robbery", "theft", "attack", "assault", "murder", "kidnap",
+    "threat", "gun", "violence", "police", "crime", "mugging"
+  ],
+  "steps": [
+    "Move to a safe location away from the threat",
+    "Call police at 100 or emergency number 112",
+    "Do not resist if weapons are involved — comply for safety",
+    "Note descriptions: clothing, vehicle, direction of escape",
+    "Wait for police at a safe distance from the incident"
+  ],
+  "guidance": [
+    "Provide your exact location and nature of the threat to police",
+    "Preserve the crime scene if safe — do not touch evidence",
+    "If witnessing a crime, stay hidden and call police immediately",
+    "Request an FIR number when filing a complaint",
+    "Use 112 app to share live location with emergency services"
+  ],
+  "helplines": [
+    {
+      "id": "police-100",
+      "name": "Police Emergency",
+      "number": "100",
+      "description": "Immediate police response"
+    },
+    {
+      "id": "emergency-112",
+      "name": "Unified Emergency Number",
+      "number": "112",
+      "description": "Single emergency number for all services"
+    }
+  ],
+  "actions": [
+    { "id": "call-100", "label": "Call Police", "icon": "phone", "type": "call", "phoneNumber": "100" },
+    { "id": "nearest-station", "label": "Nearest Police Station", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

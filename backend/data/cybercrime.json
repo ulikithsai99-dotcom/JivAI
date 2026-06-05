@@ -1,0 +1,46 @@
+{
+  "id": "cybercrime",
+  "label": "Cybercrime",
+  "icon": "shield",
+  "description": "Online fraud, hacking, phishing, and digital financial crimes",
+  "color": "#6366F1",
+  "helpline": "1930",
+  "urgency_default": "medium",
+  "keywords": [
+    "hacked", "fraud", "scam", "phishing", "cyber", "upi", "otp",
+    "bank", "account", "atm", "card", "wallet", "ransomware", "identity theft"
+  ],
+  "steps": [
+    "Disconnect from the internet if your device is compromised",
+    "Call the National Cyber Crime Helpline at 1930 immediately",
+    "Block compromised cards and bank accounts through your bank",
+    "Change passwords for all affected accounts",
+    "File a complaint at cybercrime.gov.in with evidence screenshots"
+  ],
+  "guidance": [
+    "Never share OTPs or passwords with anyone claiming to be from your bank",
+    "Document all fraudulent transactions with timestamps",
+    "Report UPI fraud to your payment app and bank within 24 hours",
+    "Enable two-factor authentication on all financial accounts",
+    "Preserve chat logs, emails, and transaction IDs as evidence"
+  ],
+  "helplines": [
+    {
+      "id": "cyber-1930",
+      "name": "National Cyber Crime Helpline",
+      "number": "1930",
+      "description": "Report cyber fraud and financial scams"
+    },
+    {
+      "id": "cyber-portal",
+      "name": "Cyber Crime Portal",
+      "number": "155260",
+      "description": "Citizen financial cyber fraud reporting"
+    }
+  ],
+  "actions": [
+    { "id": "call-1930", "label": "Cyber Crime Helpline", "icon": "phone", "type": "call", "phoneNumber": "1930" },
+    { "id": "block-card", "label": "Block Cards", "icon": "shield", "type": "contact" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

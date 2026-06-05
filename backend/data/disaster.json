@@ -1,0 +1,46 @@
+{
+  "id": "disaster",
+  "label": "Disaster",
+  "icon": "alert-triangle",
+  "description": "Natural disasters including floods, earthquakes, cyclones, and landslides",
+  "color": "#EF4444",
+  "helpline": "1078",
+  "urgency_default": "high",
+  "keywords": [
+    "flood", "earthquake", "cyclone", "storm", "tsunami", "landslide",
+    "disaster", "evacuate", "relief", "collapsed building"
+  ],
+  "steps": [
+    "Move to higher ground immediately during floods",
+    "Drop, cover, and hold on during an earthquake",
+    "Tune in to local disaster alerts and government broadcasts",
+    "Call NDRF helpline 1078 or dial 112 for rescue",
+    "Evacuate to the nearest designated shelter if instructed"
+  ],
+  "guidance": [
+    "Prepare an emergency kit: water, food, flashlight, first aid",
+    "Avoid driving or walking through floodwaters",
+    "Stay away from damaged buildings and power lines after earthquakes",
+    "Follow official evacuation routes only",
+    "Register at relief camps so family can locate you"
+  ],
+  "helplines": [
+    {
+      "id": "ndrf-1078",
+      "name": "NDMA Disaster Helpline",
+      "number": "1078",
+      "description": "National disaster management assistance"
+    },
+    {
+      "id": "emergency-112",
+      "name": "Unified Emergency Number",
+      "number": "112",
+      "description": "Rescue and relief coordination"
+    }
+  ],
+  "actions": [
+    { "id": "call-ndrf", "label": "Call NDRF", "icon": "phone", "type": "call", "phoneNumber": "1078" },
+    { "id": "nearest-shelter", "label": "Nearest Shelter", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

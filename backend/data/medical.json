@@ -1,0 +1,47 @@
+{
+  "id": "medical",
+  "label": "Medical Emergency",
+  "icon": "heart",
+  "description": "Life-threatening medical situations requiring immediate intervention",
+  "color": "#FF4D4D",
+  "helpline": "108",
+  "urgency_default": "critical",
+  "keywords": [
+    "collapsed", "unconscious", "breathing", "chest pain", "heart",
+    "stroke", "seizure", "bleeding", "injured", "fainted", "overdose",
+    "ambulance", "hospital", "hurt", "accident", "pain", "attack"
+  ],
+  "steps": [
+    "Check if the person is breathing and responsive",
+    "Call 108 or your local ambulance service immediately",
+    "Keep the person still and in a safe position",
+    "Begin CPR if trained and the person is not breathing",
+    "Do not give food or water until help arrives"
+  ],
+  "guidance": [
+    "Stay calm and speak clearly when calling emergency services",
+    "Note the exact location and any visible injuries",
+    "If chest pain, help the person sit upright and loosen tight clothing",
+    "For bleeding, apply firm pressure with a clean cloth",
+    "Monitor breathing until paramedics arrive"
+  ],
+  "helplines": [
+    {
+      "id": "ambulance-108",
+      "name": "National Ambulance Service",
+      "number": "108",
+      "description": "24/7 emergency ambulance across India"
+    },
+    {
+      "id": "emergency-112",
+      "name": "Unified Emergency Number",
+      "number": "112",
+      "description": "Single emergency number for police, fire, and medical"
+    }
+  ],
+  "actions": [
+    { "id": "call-108", "label": "Call Now", "icon": "phone", "type": "call", "phoneNumber": "108" },
+    { "id": "nearest-hospital", "label": "Nearest Hospital", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}

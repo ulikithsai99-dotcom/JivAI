@@ -1,0 +1,46 @@
+{
+  "id": "mental_health",
+  "label": "Mental Health",
+  "icon": "heart",
+  "description": "Suicidal ideation, severe anxiety, panic attacks, and mental health crises",
+  "color": "#8B5CF6",
+  "helpline": "9152987821",
+  "urgency_default": "high",
+  "keywords": [
+    "suicide", "suicidal", "self harm", "depression", "panic",
+    "anxiety", "mental health", "want to die", "end my life", "overwhelmed"
+  ],
+  "steps": [
+    "You are not alone — reach out to a crisis helpline now",
+    "Call KIRAN Mental Health Helpline at 9152987821",
+    "Stay with someone you trust or ask them to stay with you",
+    "Remove immediate means of self-harm from your surroundings",
+    "Breathe slowly — help is available and recovery is possible"
+  ],
+  "guidance": [
+    "Crisis feelings are temporary — speaking to someone helps",
+    "iCall emotional support is available at 9152987821",
+    "Vandrevala Foundation helpline operates 24/7 at 18602662345",
+    "If in immediate danger, call 112 for emergency intervention",
+    "Professional counseling is confidential and non-judgmental"
+  ],
+  "helplines": [
+    {
+      "id": "kiran",
+      "name": "KIRAN Mental Health Helpline",
+      "number": "9152987821",
+      "description": "24/7 government mental health support"
+    },
+    {
+      "id": "vandrevala",
+      "name": "Vandrevala Foundation",
+      "number": "18602662345",
+      "description": "24/7 emotional crisis support"
+    }
+  ],
+  "actions": [
+    { "id": "call-kiran", "label": "Crisis Helpline", "icon": "phone", "type": "call", "phoneNumber": "9152987821" },
+    { "id": "nearest-counselor", "label": "Find Support", "icon": "map-pin", "type": "locate" },
+    { "id": "voice-guide", "label": "Voice Guide", "icon": "mic", "type": "guide" }
+  ]
+}
